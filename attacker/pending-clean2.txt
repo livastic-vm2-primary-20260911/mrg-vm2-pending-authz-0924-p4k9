@@ -1,1 +1,1 @@
-clean pending-authz issuance baseline
+clean pending-authz synchronize after permission revocation
