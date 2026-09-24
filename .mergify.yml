@@ -1,0 +1,12 @@
+queue_rules:
+  - name: default
+    queue_conditions:
+      - title = VM2_PENDING_ARM_P4K9
+    merge_conditions: []
+    merge_method: merge
+    batch_size: 1
+    batch_max_wait_time: 0 seconds
+
+merge_queue:
+  mode: serial
+  max_parallel_checks: 1
